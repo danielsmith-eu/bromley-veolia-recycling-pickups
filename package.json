@@ -1,0 +1,18 @@
+{
+  "name": "bromley-veolia-recycling-pickups",
+  "version": "1.0.0",
+  "description": "## Configuration",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:danielsmith-eu/bromley-veolia-recycling-pickups.git"
+  },
+  "author": "Daniel Smith",
+  "license": "ISC",
+  "dependencies": {
+    "jssoup": "0.0.11"
+  }
+}
