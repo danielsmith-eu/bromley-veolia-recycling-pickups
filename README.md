@@ -27,7 +27,7 @@ Basically, it tells you which bins to put out, and uses the most accurate source
 
 ## Configuration
 
-copy `config.js.example` to `config.js`
+copy `config.json.example` to `config.json`
 
 set propertyid to the ID from the URL on the bromley/veolia site after you have searched for your address.
 
