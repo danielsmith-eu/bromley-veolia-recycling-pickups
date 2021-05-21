@@ -6,7 +6,7 @@ export filename="source.html"
 if [ ! -f "$filename" ] || [ $(find "$filename" -mtime +1 -print) ]; then
 	# file is missing, or more than 1 day old
 	#echo "File does not exist or is > 1 day old"
-	export PID=`cat config.js | jq -r .propertyid`
+	export PID=`cat config.json | jq -r .propertyid`
 	#echo "Using propertyid: $PID"
 	export URL="https://recyclingservices.bromley.gov.uk/property/$PID"
 	#echo "Using URL: $URL"
