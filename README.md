@@ -1,5 +1,8 @@
 # bromley-veolia-recycling-pickups 
 
+# 2021-05-21 NB: It looks like Bromley have changed backend provider - this may not work at the moment!
+
+
 ## What?
 
 Downloads the property pickup date information from the Bromley/Veolia service site and parses it into JSON for use downstream (e.g. for a Home Assistant panel, a WhatsApp/Telegram bot, IFTTT etc.)
